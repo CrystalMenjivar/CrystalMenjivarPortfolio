@@ -1,0 +1,551 @@
+/* Line thing - #514f4f 
+   hovered nav - #828182
+   lines between works description - #919090
+   Everything else is #000000
+
+*/
+
+
+
+
+
+
+h1 {
+    font-size: 30px;
+    font-weight: normal;
+    font-family: "shree devanagari 714", sans-serif;
+    margin-bottom: -50px;
+
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+  
+}
+
+/* ------------- banner in home page -------------- */ 
+#banner {
+    position: absolute;
+    top: 10%;
+    bottom: 20%;
+    left: 10%;
+    right: 20%;
+    z-index: -1;
+  
+}
+
+/* ------------- cartoon in home page -------------- */
+#cartoonme {
+    position: relative;
+    top:350px;
+    left: 10px
+}
+
+/* ------------- naviagtion all pages  -------------- */
+
+/* ---- line thing below the nav ---- */
+.navtab {
+    border-style: solid;
+    border-top: transparent;
+    border-bottom: solid 2px;
+    border-left: transparent;
+    border-right: transparent;
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    
+    
+}
+
+
+.navtab ul li a {
+    text-decoration: none;
+    color:black;
+    font-family: "shree devanagari 714";
+    font-size: 15px;
+    padding: 5px; /* space between nav (home, works, contact)  */
+   
+}
+
+
+.navtab ul li {
+    
+    position: relative;  
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+
+
+}
+
+
+/* --------- color when the the nav is hovered on -------- */
+.navtab a:hover {
+    color: #828182;
+    
+}
+
+
+nav ul li a:hover, nav ul li a:focus {
+    color:#828182;
+}
+
+/* -------------------------------------------------------------------------------*/
+
+
+/* --------- about me subtitile home page -------- */
+
+
+#aboutme {
+    margin-left: 30%;
+    margin-top: 7%;
+    font-family: "shree devanagari 714", sans-serif;
+
+}
+
+
+/* ---------------------------- resume  ------------------------------ */
+
+#resume {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 250px; /* how far down from the top of the page */
+    width: 60px; /* right side of box */
+    padding: 8px; 
+    border: 2px solid black; /* thicknes of box line */
+    
+}
+
+
+/* ------ link button to resume ----- */
+#linkresume {
+    text-decoration: none;
+    color:black;
+    font-family: "shree devanagari 714";
+
+}
+
+
+/* ---- hovered resume button ---- */
+#linkresume :hover {
+    color: #828182;
+
+}
+
+
+/* ----- paragraph in resume ----- */
+#resumep {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+/* ----------------------------------------------------------------------*/
+
+/* --------- all descriptions and paragraphs all pages -------- */
+
+
+#homedescription {
+    font-family: "shree devanagari 714", sans-serif;
+    float: right;
+    display: block;
+    margin: 0% 0%;
+    width: 65%;
+}
+
+
+/* --------------------------- Works page -------------------------- */
+
+/* --- the lines on top and bottom of text --- */
+#gdescription {
+    margin-top: 30px;
+    border-style: solid;
+    border-top: solid 1px;
+    border-top-color: #919090;
+    border-bottom: solid 1px;
+    border-bottom-color: #919090;
+    border-left: transparent;
+    border-right: transparent;
+
+}
+
+/* --- general description inbetween the lines --- */
+#pgdescription {
+    margin-left: 300px;
+    font-family: "shree devanagari 714", sans-serif;
+
+}
+
+
+/* subtitle in work (freshman year, sophmo */ 
+h3 {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top:100px;
+
+}
+
+/*---------- works thumbnails ---------*/
+
+.worksthumnails {
+    margin-left: 30px;
+    
+}
+
+
+/*-- capstone thumbnail --*/
+
+#capthumbnail {
+    margin-left: 150px; 
+
+}
+
+
+/* ----------- dog page  ----------*/
+
+#dogpic /* dog picture */ {
+    margin-left: 450px;
+    margin-top: 50px;
+
+}
+
+#dogp /* dog description */ {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+
+
+
+/* ----------- perseus page  ----------*/
+
+#perseuspic /* perseus picture */ {
+    margin-left: 440px;
+    margin-top: 50px;
+
+}
+
+#perseusp /* perseus description */ {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+
+/* -----------  textanddrive page ----------*/
+
+#textanddrivepic /* textanddrive picture */ {
+    margin-left: 450px;
+    margin-top: 50px;
+
+}
+
+#textanddrivep /* textanddrive description */ {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 30px;
+    margin-left: 50px
+
+}
+
+
+
+/* ----------- typography page ----------*/
+
+#typographypic /* typography picture */ {
+    margin-left: 450px;
+    margin-top: 50px;
+
+}
+
+#typographyp /* typography description */ {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+
+}
+
+
+/* ----------- mickey page ----------*/
+
+#mickeypic /* mickey picture */ {
+    margin-left: 490px;
+    margin-top: 50px;
+
+}
+
+#mickeyp /* mickey description */ {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+
+}
+
+
+
+/* ----------- app page ----------*/
+
+#apppic /* app picture */ {
+    margin-left: 490px;
+    margin-top: 50px;
+
+}
+
+#appp /* app description */ {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+
+}
+
+
+
+/* -----------  infographic page ----------*/
+
+#infographicpic /* inforgraphic picture */ {
+    margin-left: 440px;
+    margin-top: 50px;
+
+}
+
+#infographicp /* inforgraphic description */ {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+
+}
+
+
+/* ----------- hiphop page ----------*/
+
+#hiphoppic /* hiphop picture */ {
+    margin-left: 490px;
+    margin-top: 50px;
+
+}
+
+#hiphopp /* hiphop description */ {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+
+/* ----------- fish  page ----------*/
+
+#fishpic /* fish picture */ {
+    margin-left: 490px;
+    margin-top: 50px;
+
+}
+
+#fishp /* fish description */ {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+
+/* ----------- dante  page ----------*/
+
+#dantepic /* dante picture */ {
+    margin-left: 500px;
+    margin-top: 50px;
+
+}
+
+#dantep /* dante description */ {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+
+
+/* ----------- photoshop page ----------*/
+
+#photoshoppic /* photoshop picture */ {
+    margin-left: 490px;
+    margin-top: 50px;
+
+}
+
+#photoshopp /* photoshop description */ {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+
+}
+
+
+
+/* -----------  busniesscard page ----------*/
+
+#busniesscardpic /* busniesscard picture */ {
+    margin-left: 400px;
+    margin-top: 50px;
+
+}
+
+#busniesscardp /* busniesscard description */ {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+
+
+/* ----------- dantesite page ----------*/
+
+#dantesitepic /* dantesite picture */ {
+    margin-left: 490px;
+    margin-top: 50px;
+
+}
+
+#dantesitep /* dantesite description */ {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+
+}
+
+
+/* ----------- sketchbook page ----------*/
+
+#sketchbookpic /* sketchbook picture */ {
+    margin-left: 490px;
+    margin-top: 50px;
+
+}
+
+#sketchbookp /* sketchbook description */ {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+
+}
+
+
+/* ----------- flash page ----------*/
+
+#flashpic /* flash picture */ {
+    margin-left: 490px;
+    margin-top: 50px;
+
+}
+
+#flashp /* flash description */ {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+
+}
+
+
+/* ----------- clay  page ----------*/
+
+#claypic /* clay picture */ {
+    margin-left: 490px;
+    margin-top: 50px;
+
+}
+
+#clayp /* clay description */ {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+
+/* ----------- hoc  page ----------*/
+
+#hocpic /* hoc picture */ {
+    margin-left: 490px;
+    margin-top: 50px;
+
+}
+
+#hocp /* hoc description */ {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+
+/* ----------- LVGEA logo page  ----------*/
+
+#lvgealogopic /* dog picture */ {
+    margin-left: 450px;
+    margin-top: 50px;
+
+}
+
+#lvgealogop /* dog description */ {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+
+
+/* ----------- school site page ----------*/
+
+#schoolsitepic /* schoolsite picture */ {
+    margin-left: 400px;
+    margin-top: 50px;
+
+}
+
+#schoolsitep /* school site description */ {
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+
+}
+
+
+
+
+/* --------------------------- contact info page -------------------------- */
+
+
+/* Contact information sub title */
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "shree devanagari 714", sans-serif;
+    margin-top: 50px;
+    padding-left: 80px;
+}
+
+/* -------- banner with contact info in it ------- */ 
+#contactbanner {
+    margin-left: 150px;
+    margin-top: 50px
+    
+
+}
+
+
+
+
+
+
+
